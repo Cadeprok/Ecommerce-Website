@@ -25,7 +25,13 @@ h6 {
 /* End of banner stuff */
 
 
+.h2{
+    text-align: center;
+}
+
+
 
 
 
 /* Media queries is going to be needed for banner for smaller screens */
+
