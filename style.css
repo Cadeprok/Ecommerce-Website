@@ -31,9 +31,20 @@ h6 {
     text-align: center;
 }
 
+/* Heading and p format for cards */
+
+.phdFormat {
+    font-size: 16px;
+    color: black;
+}
+.p-phdFormat{
+    font-size: 15px;
+}
+/* ---------------- */
 
 
 
 
 /* Media queries is going to be needed for banner for smaller screens */
 
+/*Media queries are going to be needed for imgs and font-size in instructor cards */
