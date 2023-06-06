@@ -31,6 +31,11 @@ h6 {
     text-align: center;
 }
 
+h5 {
+    font-size: 32px;
+    text-decoration: underline;
+}
+
 /* H6 and p format for cards */
 
 .phdFormat {
