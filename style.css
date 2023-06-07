@@ -47,8 +47,35 @@ h5 {
 }
 /* ---------------- */
 
+/* FAQ format */
 
+h4{
+    font-size: 20px;
+}
 
+/* Buy now button format */
+.buyNowButtom {
+    font-size: 24px;
+    color: black;
+}
+.buyNowButtom:hover {
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+.b1{
+    border-radius: 10px;
+}
+a:link {
+    font-size: 36px;
+    color:black;
+}
+a:hover {
+    color:blue;
+    text-decoration: none;
+}
 
 /* Media queries is going to be needed for banner for smaller screens */
 
