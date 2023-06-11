@@ -1,5 +1,7 @@
 /* Change text style in P, background color of all */
-
+body {
+    background-color: rgb(89, 151, 231);
+}
 section {
     padding: 0 60px;
 }
@@ -81,3 +83,16 @@ a:hover {
 /* Media queries is going to be needed for banner for smaller screens */
 
 /*Media queries are going to be needed for imgs and font-size in instructor cards */
+
+
+
+
+
+
+
+
+
+.temp class {
+    padding: 10px; 
+    margin: 10px; 
+}
