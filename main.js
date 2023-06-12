@@ -20,10 +20,10 @@ function renderProducts(){
                     ${product.description}
                 </p>
                 <br>
-                <div class="cartButton">
-                    <button class="b2">
-                        <h7 class="insideButton py-3 mx-3"><b><a class="aInsideButton" href="">Add To Cart</a></b></h7>
-                    </button>
+                <div class="add-to-cart cartButton" onclick="addToCart(${product.id})">
+                <button class="b2">
+                    <h7 class="insideButton py-3 mx-3"><b><a class="aInsideButton">Add To Cart</a></b></h7>
+                </button>
                 </div>
             </div>
         </div>
@@ -32,3 +32,23 @@ function renderProducts(){
     })
 }
 renderProducts();
+
+// Array for all products added to cart
+
+let cartArray = []
+
+// Add to cart function
+
+function addToCart(id){
+    console.log(id)
+    if (cartArray.some((item) => item.id === id)){
+        console.log('already in cart')
+    }
+    
+    else{
+    const itemBeingAdded = products.find((product) => product.id === id); 
+    // ^Above^ Finds object that is going to be added to cartArray
+    cartArray.push(itemBeingAdded) // Appends to cartArray
+    }
+    console.log(cartArray)
+}
