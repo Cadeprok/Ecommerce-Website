@@ -1,13 +1,13 @@
 const products = [
 
-    //{
-        //id: 0,
-        //name:'Bootstrap Tutorial',
-        //price: 30,
-        //numPurchasable: 5,
-        //description: "lorem8",
-        //imgSource:"./img/Bootstrap_logo.png" 
-    //},
+    {
+        id: 0,
+        name:'Bootstrap Tutorial',
+        price: 30,
+        numPurchasable: 5,
+        description: "lorem8",
+        imgSource:"./img/Bootstrap_logo.png" 
+    },
 
     {
         id: 1,
