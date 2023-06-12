@@ -80,28 +80,36 @@ a:hover {
     text-decoration: none;
 }
 
-
+/* THE FOLLOWING IS FOR index2.html */
+/* -------------------------------- */
 /* For Cart Buttoon --> index2.html */
+
+/* class for overall button */
 
 .cartButton {
     font-size: 24px;
     text-align: center;
 
 }
+/* For b2 button class */
+
 .b2 {
-    
+    border: 3px solid black;
     border-radius: 16px;
 }
-.insideButton {
-    color: rgb(219, 57, 57);
-}
-.aInsideButton {
-    color: black;
-}
 .b2:hover {
-    background-color: rgb(100, 96, 96);
+    background-color: rgb(192, 173, 173);
     color: black;
 }
+/* For <a> tag */
+
+.aInsideButton {
+    color: rgb(212, 47, 47);
+}
+.aInsideButton:hover{
+    color: black;
+}
+
 
 
 /* Media queries is going to be needed for banner for smaller screens */
