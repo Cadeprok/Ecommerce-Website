@@ -80,19 +80,30 @@ a:hover {
     text-decoration: none;
 }
 
+
+/* For Cart Buttoon --> index2.html */
+
+.cartButton {
+    font-size: 24px;
+    text-align: center;
+
+}
+.b2 {
+    
+    border-radius: 16px;
+}
+.insideButton {
+    color: rgb(219, 57, 57);
+}
+.aInsideButton {
+    color: black;
+}
+.b2:hover {
+    background-color: rgb(100, 96, 96);
+    color: black;
+}
+
+
 /* Media queries is going to be needed for banner for smaller screens */
 
 /*Media queries are going to be needed for imgs and font-size in instructor cards */
-
-
-
-
-
-
-
-
-
-.temp class {
-    padding: 10px; 
-    margin: 10px; 
-}
