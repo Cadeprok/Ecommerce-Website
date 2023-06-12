@@ -1,4 +1,14 @@
 /* Change text style in P, background color of all */
+
+/* [BEG] for navbar for when you click one of the buttons, like home, it'll scroll down to that section with a scroll effect*/
+html {
+    scroll-behavior: smooth;
+}
+.scrollEffectClass{
+    scroll-snap-align: start;
+}
+/* [END] for navbar for when you click one of the buttons, like home, it'll scroll down to that section with a scroll effect*/
+
 body {
     background-color: rgb(89, 151, 231);
 }
