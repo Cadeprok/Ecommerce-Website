@@ -41,14 +41,16 @@ let cartArray = []
 
 function addToCart(id){
     console.log(id)
+
     if (cartArray.some((item) => item.id === id)){
         console.log('already in cart')
     }
-    
+
     else{
     const itemBeingAdded = products.find((product) => product.id === id); 
     // ^Above^ Finds object that is going to be added to cartArray
     cartArray.push(itemBeingAdded) // Appends to cartArray
     }
     console.log(cartArray)
+    updateShoppingCart()
 }
