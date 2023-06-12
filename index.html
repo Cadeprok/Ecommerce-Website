@@ -15,35 +15,33 @@
 <body>
     <!-- Navbar Stuff -->
     <section class="navbar navbar-dark bg-dark container-md"> 
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">The Coding Den</a>
 
         <div class="justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav d-flex justify-content-end">
             <div class="d-flex mb-3">
-
-                <div class="me-auto p-2">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </div>
-                
-                <div class="p-2">
-                    <a class="nav-item nav-link" href="#">About Instructor</a>
-                </div>
-                <div class="p-2">
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                </div>
-                <div class="p-2">
-                    <a class="nav-item nav-link" href="#" tabindex="-1" aria-disabled="true">FAQ</a>
-                </div>
-              </div>
-
+                    <div class="me-auto p-2">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </div>
+                    
+                    <div class="p-2">
+                        <a class="nav-item nav-link" href="#instructors">Instructors</a>
+                    </div>
+                    <div class="p-2">
+                        <a class="nav-item nav-link" href="#courses">Courses</a>
+                    </div>
+                    <div class="p-2">
+                        <a class="nav-item nav-link" href="#faq" tabindex="-1" aria-disabled="true">FAQ</a>
+                    </div>
+            </div>
           </div>
         </div>
     </section>
 
     <!-- Banner -->
 
-    <section class="container-md p-0">
-            <div class="tempContainer">
+    <section class="scrollEffectClass container-md p-0">
+            <div class="tempContainer" id="home">
                 <img src="img/banner.jpg" alt="Banner" width="100%">
                 <div class="text-block">
                     <h6>
@@ -93,8 +91,8 @@
     <br>
 
 
-<section>
-    <div>
+<section class="scrollEffectClass">
+    <div id="instructors">
         <h2 class="h2">
             Meet the instructors!
         </h2>
@@ -171,7 +169,7 @@
     <br>
     <br>
 
-    <section>
+    <section class="scrollEffectClass">
         <div>
             <h2>
                 What Types of <b>Courses</b> do we offer?
@@ -182,7 +180,7 @@
         <!-- Change h5-->
 
         <!-- Grouping #1 -->
-        <div class="card-group">
+        <div class="card-group" id="courses">
 
             <div class="card">
                 <img src="img/Bootstrap_logo.png" alt="Bootstrap-logo" height="275">
@@ -272,14 +270,14 @@
         <!-- Membership perchance-->
     </section>
 
-    <section>
+    <section class="scrollEffectClass">
         <div>
             <h2>
                 Frequently Asked Questions
             </h2>
         </div>
         <br>
-        <div>
+        <div id="faq">
             <h4>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit?
             </h4>
