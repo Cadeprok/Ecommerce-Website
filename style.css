@@ -122,7 +122,13 @@ a:hover {
 
 
 /* THIS SECTION IS FOR THE CART IN index2.html" */
-
+.temp{
+    justify-content: absolute;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(6, 3fr);
+    /* ABOVE WILL NEED TO CHANGE DURING MEDIA QUIERES */
+}
 .cart {
     background-color: rgb(43, 43, 180);
     color: white;
