@@ -1,5 +1,7 @@
 // Selecets elements
 const productsElement = document.querySelector(".products");
+const productsElement1 = document.querySelector(".cart-items")
+const total1 = document.querySelector(".total-cost")
 
 // Produces all products
 
@@ -53,4 +55,33 @@ function addToCart(id){
     }
     console.log(cartArray)
     updateShoppingCart()
+}
+
+function updateShoppingCart(){
+    renderItemsInCart()
+    calculateTotal()
+}
+
+function renderItemsInCart(){
+    productsElement1.innerHTML=""; // clears cart
+    cartArray.forEach((item) =>{
+        productsElement1.innerHTML += `
+        need to make cart format
+        make sure to change using ${} format
+        `
+    })
+}
+
+function calculateTotal(){
+    let totalPrice = 0;
+    for (var i = 0; i < cartArray.length; i++){
+        totalPrice += i.price
+    }
+
+    total1.innerHTML = `Total: ${$totalPrice.toFixed(2)}` // toFixed(x) is for rounding
+}
+function removeItem(id){
+    // need to add onclick event
+    cartArray = cartArray.filter((item) => item.id !== id);
+    updateShoppingCart();
 }
