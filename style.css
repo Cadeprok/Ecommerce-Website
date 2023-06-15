@@ -121,6 +121,23 @@ a:hover {
 }
 
 
+/* THIS SECTION IS FOR THE CART IN index2.html" */
+
+.cart {
+    background-color: rgb(43, 43, 180);
+    color: white;
+    text-decoration: none;
+}
+.cartHeading {
+    color: white;
+    font-size: 60px;
+    text-align: center; 
+}
+.cartBody {
+    background-color: rgb(51, 51, 182);
+}
+
+
 
 /* Media queries is going to be needed for banner for smaller screens */
 
