@@ -1,7 +1,7 @@
 // Selecets elements
 const productsElement = document.querySelector(".products");
-const productsElement1 = document.querySelector(".cart-body")
-const total1 = document.querySelector(".total-cost")
+const productsElement1 = document.querySelector(".cart-body");
+const total1 = document.querySelector(".total-price");
 
 // Produces all products
 
@@ -100,11 +100,11 @@ function renderItemsInCart(){
 
 function calculateTotal(){
     let totalPrice = 0;
-    for (var i = 0; i < cartArray.length; i++){
-        totalPrice += i.price
-    }
-
-    total1.innerHTML = `Total: ${$totalPrice.toFixed(2)}` // toFixed(x) is for rounding
+    cartArray.forEach((item) => {
+        totalPrice += item.price;
+    })
+    totalPrice = totalPrice.toFixed(2);
+    total1.innerHTML = `$${totalPrice}`; // toFixed(x) is for rounding
 }
 function removeItem(id){
     // need to add onclick event
