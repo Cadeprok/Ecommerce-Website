@@ -15,10 +15,6 @@ function calculateTotal(){
     total1.innerHTML = `$${totalPrice.toFixed(2)}`; // toFixed(x) is for rounding
 }
 
-
-
-
-
 let totalPrice = 0;
     
 cartArray.forEach((item) => {

@@ -6,7 +6,7 @@ const total1 = document.querySelector(".total-price");
 // Produces all products
 
 function renderProducts(){
-    products.forEach((product) => { // need to align items to the center. 
+    products.forEach((product) => { 
         productsElement.innerHTML += `
         <div class="card items" style="width: 30rem;"> 
             <img src="${product.imgSource}" alt="${product.name}" height="275">
@@ -38,7 +38,6 @@ renderProducts();
 
 let cartArray = []
 
-// Add to cart function
 
 function addToCart(id){
     console.log(id)
@@ -75,7 +74,7 @@ function renderItemsInCart(){
                </div>
                <div class="p-2 flex-shrink-1">
                    <h3 class="cart-card-h">
-                       ${item.price}
+                       $${item.price}
                    </h3>
                </div>
              </div>
@@ -87,7 +86,9 @@ function renderItemsInCart(){
                    </p>
                </div>
                <div class="p-2 flex-shrink-1 temp1">
-                   <img src="${item.imgSource}" height="200" alt="${item.name}">
+                    <div class = "remove-Item" onclick="removeItem(${item.id})">
+                        <img src="${item.imgSource}" height="200" alt="${item.name}">
+                    <div>
                </div>
              </div>
            <br>
