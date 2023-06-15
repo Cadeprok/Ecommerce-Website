@@ -130,34 +130,106 @@ a:hover {
     /* ABOVE WILL NEED TO CHANGE DURING MEDIA QUIERES */
 }
 .cart {
+    width: 100%;
     background-color: rgb(43, 43, 180);
     color: white;
     text-decoration: none;
 }
 .cartHeading {
+    width: 100%;
     color: white;
     font-size: 60px;
     text-align: center; 
 }
-.cartBody {
-    background-color: rgb(51, 51, 182);
+.cartHeading-section{
+    padding: 0 0px;
 }
+
 .cart-card{
     color: black;
 }
 .cart-card-p{
-    color: white;
+    color: black;
     font-size: 25px;
 }
 .cart-card-h{
     font-size: 36px;
-    color: white;
+    color: black;
 }
 .temp1{
     background-color: white;
 }
+.total-price-h{
+    font-size: 30px;
+    color: black;
+}
+.total-price{
+    font-size: 30px;
+    color: black;
+}
 
 
-/* Media queries is going to be needed for banner for smaller screens */
+/* All classes for checkout bottom below */
+.div-CO-button{
+    text-align: center;
+}
+.check-out-button{
+    color: black;
+    background-color: aqua;
+    font-size: 30px;
+    border-radius: 16px;
+
+}
+.check-out-button:hover{
+    color: black;
+    background-color: darkblue;
+    font-size: 30px;
+    border-radius: 16px;
+
+}
+.CO-A{
+    color: black;
+}
+.CO-A:hover{
+    color: white;
+}
 
 /*Media queries are going to be needed for imgs and font-size in instructor cards */
+
+/* index.html media queries */
+@media screen and (max-width: 280px) {
+
+}
+
+@media screen and (max-width: 360px) {
+
+  }
+  @media screen and (max-width: 760px) {
+    h6{
+        font-size: 0.8rem;
+    }
+    section{
+        padding: 0 40px;
+    }
+    .tempContainer{
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .instructors img{
+        height: 200px;
+    }
+    a:link{
+        font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 900px) {
+
+  }
+  @media screen and (max-width: 1000px) {
+
+  }
+  @media screen and (max-width: 1280px) {
+
+  }
