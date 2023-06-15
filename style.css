@@ -142,7 +142,20 @@ a:hover {
 .cartBody {
     background-color: rgb(51, 51, 182);
 }
-
+.cart-card{
+    color: black;
+}
+.cart-card-p{
+    color: white;
+    font-size: 25px;
+}
+.cart-card-h{
+    font-size: 36px;
+    color: white;
+}
+.temp1{
+    background-color: white;
+}
 
 
 /* Media queries is going to be needed for banner for smaller screens */
