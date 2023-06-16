@@ -197,14 +197,38 @@ a:hover {
 /*Media queries are going to be needed for imgs and font-size in instructor cards */
 
 /* index.html media queries */
-@media screen and (max-width: 280px) {
+    @media screen and (max-width: 280px) {
+        /*BELOW IS EVERYTHING FOR NAVBAR AND BANNER */
+        section{
+            padding: 0 40px;
+        }
+        .text-block{
+            top: 93px;
+            left: 37px;
+        }
 
-}
-
-@media screen and (max-width: 360px) {
-
-  }
-  @media screen and (max-width: 760px) {
+        .p-2{
+            padding: 0.2rem;
+        }
+        .navbar{
+            width: 100%;
+        }
+        .tempContainer{
+            width: 100%;
+        }
+        a:link{
+            font-size: 10px;
+        }
+        /*ABOVE IS EVERYTHING FOR NAVBAR AND BANNER */
+        img {
+            height: 200px;
+        }
+        .instructors .card-text{
+            font-size: 12px;
+        }
+    }
+    /* ---------------------------------*/ 
+    @media screen and (max-width: 760px) and (min-width: 281px) {
     h6{
         font-size: 0.8rem;
     }
@@ -223,13 +247,15 @@ a:hover {
     a:link{
         font-size: 20px;
     }
-  }
-  @media screen and (max-width: 900px) {
+    }
+    /* ---------------------------------*/ 
+    @media screen and (max-width: 900px) {
 
-  }
-  @media screen and (max-width: 1000px) {
+    }
+    /* ---------------------------------*/ 
+    @media screen and (max-width: 1000px) {
+    /* ---------------------------------*/ 
+    }
+    @media screen and (max-width: 1280px) {
 
-  }
-  @media screen and (max-width: 1280px) {
-
-  }
+    }
