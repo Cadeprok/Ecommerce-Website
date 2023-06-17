@@ -228,32 +228,30 @@ a:hover {
         }
     }
     /* ---------------------------------*/ 
-    @media screen and (max-width: 760px) and (min-width: 281px) {
-    h6{
-        font-size: 0.8rem;
-    }
-    section{
-        padding: 0 40px;
-    }
-    .tempContainer{
-        width: 100%;
-    }
-    .navbar{
-        width: 100%;
-    }
-    .instructors img{
-        height: 200px;
-    }
-    a:link{
-        font-size: 20px;
-    }
-    }
-    /* ---------------------------------*/ 
-    @media screen and (max-width: 900px) {
-
+    @media screen and (min-width: 281px) and (max-width: 760px){
+        h6{
+            font-size: 0.8rem;
+        }
+        section{
+            padding: 0 40px;
+        }
+        .tempContainer{
+            width: 100%;
+        }
+        .navbar{
+            width: 100%;
+        }
+        .instructors img{
+            height: 200px;
+        }
+        a:link{
+            font-size: 20px;
+        }
     }
     /* ---------------------------------*/ 
-    @media screen and (max-width: 1000px) {
+    @media screen and (min-width: 761px) and (max-width: 900px) {}
+    /* ---------------------------------*/ 
+    @media screen and (min-width: 901px) and (max-width: 1000px) {
         img {
             height: 250px;
         }
@@ -275,5 +273,30 @@ a:hover {
     }
     /* ---------------------------------*/ 
     @media screen and (max-width: 1280px) {
-
+        img {
+            height: 300px;
+        }
+        .p-phdFormat{
+            font-size: 22px;
+        }
+        .why h2{
+            font-size: 36px;
+        }
+        .why p{
+            font-size: 20px;
+        }
+        .about p{
+            font-size: 20px;
+        }
+        .FAQ p{
+            font-size: 22px;
+        }
+        .FAQ h4{
+            font-size: 36px;  
+        }
+        .FAQ h2{
+            font-size: 4rem;
+            padding-top: 6px;
+            padding-bottom: 6px;
+        }
     }
