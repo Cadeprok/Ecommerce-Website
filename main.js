@@ -64,7 +64,7 @@ function renderItemsInCart(){
     productsElement1.innerHTML=""; // clears cart
     cartArray.forEach((item) =>{
        productsElement1.innerHTML += `
-       <div class="cart-body">
+       <div class="theCart cart-body">
        <div class="cart-card">
            <div class="d-flex">
                <div class="p-2 w-100">
