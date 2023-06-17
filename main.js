@@ -14,7 +14,7 @@ function renderProducts(){
                 <h5 class="card-title">
                     ${product.name}
                 </h5>
-                <h4>
+                <h4 class="card-text">
                     <b>$ ${product.price}</b>
                 </h4>
                 <p class="card-text">
