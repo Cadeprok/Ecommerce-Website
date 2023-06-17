@@ -1,0 +1,164 @@
+html {
+    scroll-behavior: smooth;
+}
+.scrollEffectClass{
+    scroll-snap-align: start;
+}
+/* [END] for navbar for when you click one of the buttons, like home, it'll scroll down to that section with a scroll effect*/
+
+body {
+    background-color: rgb(89, 151, 231);
+}
+section {
+    padding: 0 60px;
+}
+
+h6 {
+    font-size: 25px;
+}
+.text-block {
+    position: absolute;
+    left: 50px;
+    top: 165px;
+    background-color: lightgray;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+}
+.tempContainer {
+    position: relative;
+}
+
+/* End of banner stuff */
+
+
+.h2{
+    text-align: center;
+}
+
+h5 {
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+
+
+
+.cartButton {
+    font-size: 24px;
+    text-align: center;
+
+}
+/* For b2 button class */
+
+.b2 {
+    border: 3px solid black;
+    border-radius: 16px;
+}
+.b2:hover {
+    background-color: rgb(192, 173, 173);
+    color: black;
+}
+/* For <a> tag */
+
+.aInsideButton {
+    color: rgb(212, 47, 47);
+}
+.aInsideButton:hover{
+    color: black;
+}
+
+
+/* THIS SECTION IS FOR THE CART IN index2.html" */
+.temp{
+    justify-content: absolute;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(6, 3fr);
+    /* ABOVE WILL NEED TO CHANGE DURING MEDIA QUIERES */
+}
+.cart {
+    width: 100%;
+    background-color: rgb(43, 43, 180);
+    color: white;
+    text-decoration: none;
+}
+.cartHeading {
+    width: 100%;
+    color: white;
+    font-size: 60px;
+    text-align: center; 
+}
+.cartHeading-section{
+    padding: 0 0px;
+}
+
+.cart-card{
+    color: black;
+}
+.cart-card-p{
+    color: black;
+    font-size: 25px;
+}
+.cart-card-h{
+    font-size: 36px;
+    color: black;
+}
+.temp1{
+    background-color: white;
+}
+.total-price-h{
+    font-size: 30px;
+    color: black;
+}
+.total-price{
+    font-size: 30px;
+    color: black;
+}
+
+
+/* All classes for checkout bottom below */
+.div-CO-button{
+    text-align: center;
+}
+.check-out-button{
+    color: black;
+    background-color: aqua;
+    font-size: 30px;
+    border-radius: 16px;
+
+}
+.check-out-button:hover{
+    color: black;
+    background-color: darkblue;
+    font-size: 30px;
+    border-radius: 16px;
+
+}
+.CO-A{
+    color: black;
+}
+.CO-A:hover{
+    color: white;
+}
+
+
+
+@media screen and (min-width: 281px) and (max-width: 760px){
+    .theCart .p-card-text{
+        font-size: 12px;
+    }
+    section{
+        padding: 0 0px;
+    }
+    img {
+        height: 200px;
+    }
+    .card-body{ 
+        padding: 0rem;
+        font-size: 12px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
