@@ -87,7 +87,7 @@ function renderItemsInCart(){
                </div>
                <div class="p-2 flex-shrink-1 temp1">
                     <div class = "remove-Item" onclick="removeItem(${item.id})">
-                        <img src="${item.imgSource}" height="200" alt="${item.name}">
+                        <img src="${item.imgSource}" class="style2temp" height="200" alt="${item.name}">
                     <div>
                </div>
              </div>
