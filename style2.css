@@ -150,40 +150,27 @@ h5 {
 
 }
 /*--------------------*/
-@media screen and (min-width: 281px) and (max-width: 900px){
-    .theCart .p-card-text{
-        font-size: 12px;
-    }
-    section{
-        padding: 0 0px;
-    }
+
+/*--------------------*/
+@media screen and (max-width: 360px){
     .navbar{
         width: 100%;
     }
     .banner{
         width:100%;
     }
-    img {
-        height: 200px;
-        width: 70%;
-    }
-    .card-body{ 
-        padding: 0rem;
-        font-size: 12px;
-        padding-right: 110px;
-        padding-left: 10px;
-    }
     .temp{
-        display: list-item;
+        padding: 0 0px;
+        padding-left: 0px;
     }
-    .cart-body .temp1{
-        background-color: rgb(89, 151, 231);;
-        height: 175px;
-        width: 80%;
+    element.style{
+        width: 0rem;
     }
-    element.style {
-        font-size: 20px;
-        padding-right: 15px;
+    .card-group .items{
+        text-align: start;
+        padding-left: 0px;
+        padding-right: 5px;
+        align-items: start;
     }
 }
 /*--------------------*/
@@ -212,6 +199,8 @@ h5 {
     }
     .temp{
         display: list-item;
+        padding: 0 0px;
+        padding-left: 0px;
     }
     .cart-body .temp1{
         background-color: rgb(89, 151, 231);;
@@ -224,22 +213,16 @@ h5 {
     }
 }
 /*--------------------*/
-@media screen and (max-width: 360px){
-    .navbar{
-        width: 100%;
-    }
-    .banner{
-        width:100%;
-    }
-}
+
 /*--------------------*/
 @media screen and (max-width: 412px){
     .navbar{
         display: block;
     }    
 }
+
 /*--------------------*/
-@media screen and (max-width: 820px){
+@media screen and (min-width: 413) and (max-width: 820px){
     .navbar{
         display: block;
     }

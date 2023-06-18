@@ -228,7 +228,7 @@ a:hover {
         }
     }
     /* ---------------------------------*/ 
-    @media screen and (min-width: 281px) and (max-width: 760px){
+    @media screen and (min-width: 281px) and (max-width: 539px){
         h6{
             font-size: 0.8rem;
         }
@@ -251,6 +251,7 @@ a:hover {
             font-size: 20px;
         }
     }
+
     /* ---------------------------------*/ 
     @media screen and (min-width: 761px) and (max-width: 900px) {}
     /* ---------------------------------*/ 
