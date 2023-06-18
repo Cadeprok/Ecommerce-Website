@@ -146,6 +146,9 @@ h5 {
 /*--------------------*/
 /* MEDIA QUIERY STUFF */
 /*--------------------*/
+@media screen and (max-width: 280px) {
+
+}
 
 @media screen and (min-width: 281px) and (max-width: 760px){
     .theCart .p-card-text{
@@ -162,12 +165,12 @@ h5 {
     }
     img {
         height: 200px;
-        width: 80%;
+        width: 70%;
     }
     .card-body{ 
         padding: 0rem;
         font-size: 12px;
-        padding-right: 100px;
+        padding-right: 110px;
         padding-left: 10px;
     }
     .temp{
@@ -178,5 +181,16 @@ h5 {
         height: 175px;
         width: 80%;
     }
+    element.style {
+        font-size: 20px;
+        padding-right: 15px;
+    }
+
+}
+@media screen and (min-width: 901px) and (max-width: 1000px){
+
+}
+
+@media screen and (max-width: 1280px) {
 
 }
