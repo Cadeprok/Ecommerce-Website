@@ -276,6 +276,39 @@ h5 {
 }
 /*--------------------*/
 @media screen and (min-width: 901px) and (max-width: 1000px){
+    section{
+        padding: 0 120px;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .banner{
+        width: 100%;
+    }
+
+    .temp{
+        display: list-item;
+    }
+    .card-body{
+        padding-left: 30px;
+    }
+    /** CART STUFF */
+    .card-card-p{
+        font-size: 22px;
+    }
+    .style2temp{
+        padding-right: 150px;
+    }
+    .total-price{
+        padding-right: 250px;
+    }
+    .div-CO-button{
+        padding-right: 140px;
+    }
+    .cartHeading{
+        text-align: start;
+    }
+
 }
 /*--------------------*/
 @media screen and (max-width: 1280px) {
