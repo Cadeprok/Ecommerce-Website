@@ -318,11 +318,32 @@ h5 {
     .banner{
         width: 100%;
     }
+/*--------------------*/
+    .card-group .items{
+        padding-left: 0px;
+    }
+    .card-group img{
+        padding-right: 110px;
+    }
+/*--------------------*/
+    .div-CO-button{
+        padding-right: 0px;
+    }
     .cart-card-h {
         padding-right: 30px;
     }
+    .cart-card-p{
+        font-size: 22px;
+    }
     .total-price{
         padding-right: 30px;
+    }
+    .cart-body img {
+        width: 100%;
+    }
+    .style2temp{ /*FOR CENTERING IMG INSIDE OF CART CARD */
+        padding-right: 0px;
+        padding-left: 0px;
     }
 }
 /*--------------------*/
