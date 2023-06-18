@@ -146,11 +146,7 @@ h5 {
 /*--------------------*/
 /* MEDIA QUIERY STUFF */
 /*--------------------*/
-@media screen and (max-width: 280px) {
-
-}
-/*--------------------*/
-
+@media screen and (max-width: 280px) {}
 /*--------------------*/
 @media screen and (max-width: 360px){
     .navbar{
@@ -171,6 +167,14 @@ h5 {
         padding-left: 0px;
         padding-right: 5px;
         align-items: start;
+    }
+}
+@media screen and (max-width: 375px){
+    .navbar{
+        width: 100%;
+    }
+    .banner{
+        width: 100%;
     }
 }
 /*--------------------*/
@@ -215,14 +219,10 @@ h5 {
 /*--------------------*/
 
 /*--------------------*/
-@media screen and (max-width: 412px){
-    .navbar{
-        display: block;
-    }    
-}
+
 
 /*--------------------*/
-@media screen and (min-width: 413) and (max-width: 820px){
+@media screen and (min-width: 415) and (max-width: 820px){
     .navbar{
         display: block;
     }
