@@ -300,6 +300,22 @@ h5 {
 }
 /*--------------------*/
 @media screen and (max-width: 393px){
+    .navbar{
+        width: 100%;
+    }
+    .banner {
+        width: 100%;
+    }
+    .card-group .items {
+        padding-left: 30px;
+    }
+
+    .cardHeading{
+        width: 100%;
+    }
+    .cart-body img {
+        width: 170%;
+    }
 
 }
 /*--------------------*/
@@ -326,6 +342,9 @@ h5 {
         padding-right: 110px;
         padding-left: 10px;
     }
+    .card-body img{
+        width: 140%;
+    } 
     .temp{
         display: list-item;
         padding: 0 0px;
