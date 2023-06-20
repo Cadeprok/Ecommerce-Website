@@ -257,7 +257,45 @@ h5 {
 
 }
 /*--------------------*/
-@media screen and (max-width: 412px){
+@media screen and (max-width: 414px){
+    section{
+        padding: 0 0px;
+    }
+    .temp{
+        display: list-item;
+        padding: 0 0px;
+        padding-left: 0px;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .banner{
+        width: 100%;
+    }
+    /*--------------------*/
+    .card-group{
+        padding-left: 0;
+    }
+    .card-group img{
+        padding-right: 100px;
+    }
+    .card-body{ 
+        padding: 0rem;
+        font-size: 12px;
+        padding-right: 110px;
+        padding-left: 10px;
+    }
+    /*--------------------*/
+    .cart-card-h {
+        padding-right: 30px;
+    }
+    .cart-body .temp1{
+        background-color: rgb(89, 151, 231);
+        width: 200px;
+    }
+    .cart-card-p {
+        font-size: 18px
+    }
 
 }
 /*--------------------*/
