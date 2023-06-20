@@ -251,7 +251,6 @@ h5 {
         padding-left: 0px;
     }
     .cartHeading{
-        width: 100%;
         text-align: start;
     }
     .style2temp{
@@ -275,7 +274,15 @@ h5 {
 }
 /*--------------------*/
 @media screen and (max-width: 540px){
-
+    .navbar{
+        width: 100%;
+    }
+    .banner{
+        width: 100%;
+    }
+    .cartHeading{
+        width: 100%;
+    }
 }
 /*--------------------*/
 @media screen and (max-width: 414px){
