@@ -241,7 +241,7 @@ h5 {
     .temp{ /* FOR CHANGING ALIGNMENT OF CARDS */
         text-align: center;
         align-items: center;
-        padding-left: 60px;
+        padding-left: 40px;
     }
     .cart-body img{
         width: 60%;
@@ -251,6 +251,7 @@ h5 {
         padding-left: 0px;
     }
     .cartHeading{
+        width: 100%;
         text-align: start;
     }
     .style2temp{
@@ -270,7 +271,7 @@ h5 {
 }
 /*--------------------*/
 @media screen and (max-width: 768px){
-
+/* AS OF NOW UNNEEDED*/
 }
 /*--------------------*/
 @media screen and (max-width: 540px){
