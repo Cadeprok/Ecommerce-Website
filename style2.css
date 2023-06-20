@@ -214,8 +214,16 @@ h5 {
 }
 /*--------------------*/
 @media screen and (max-width: 820px){
+    section{
+        padding: 0 0px;
+    }
+
     .navbar{
         display: block;
+        width: 100%;
+    }
+    .banner{
+        width: 100%;
     }
     .items img {
         text-align: center;
@@ -239,13 +247,25 @@ h5 {
         width: 60%;
     }
     .total-price{
-        padding-right: 250px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
     .cartHeading{
         text-align: start;
     }
     .style2temp{
         padding-right: 90px; /* for making picture of tutial fit inside of the cart, before some would be out of bounds */
+    }
+    .cart-card-p {
+        color: black;
+        font-size: 24px;
+    }
+    .cart-body img{
+        width: 110%;
+    }
+    .cart-body .temp1{
+        background-color: rgb(89, 151, 231);
+        width: 90%;
     }
 }
 /*--------------------*/
