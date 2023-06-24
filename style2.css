@@ -468,5 +468,42 @@ h5 {
     }
 }
 /*--------------------*/
-@media screen and (max-width: 280px) {}
+@media screen and (max-width: 280px) {
+    .navbar{
+        width: 100%;
+    }
+    .banner{
+        width: 100%;
+    }
+    /*--------------------*/
+    .card-body{
+        font-size: 13px;
+        padding-right: 0px;
+    }
+    
+    .card-group .items {
+        text-align: start;
+    }
+    .card-group img {
+        padding-right: 6px;
+        padding-left: 0px;
+        width: 60%;
+    }
+    .card-text{
+        padding-right: 200px;
+    }
+    .cartButton{
+        padding-right: 200px;;
+    }
+    /*--------------------*/
+    .cartHeading{
+        width: 100%;
+        font-size: 50px;
+    }
+    .cart-card-h{
+        font-size: 32px;
+        padding-right: 0px;
+        padding-left: 0px;   
+    }
+}
 /*--------------------*/
