@@ -76,3 +76,11 @@ total1.innerHTML = `$${totalPrice.toFixed(2)}`;
             padding-right: 15px;
         }
     }
+
+
+
+
+    .cart-card-p {
+        color: black;
+        font-size: 20px;
+    }
