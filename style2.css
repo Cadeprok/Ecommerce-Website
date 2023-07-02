@@ -327,7 +327,20 @@ h5 {
 
 }
 /*--------------------*/
-@media screen and (max-width: 414px){
+@media screen and (max-width: 412px){
+    .navbar{
+        width: 110%;
+    }
+    .banner {
+        width: 110%;
+    }
+    .cartHeading{
+        width: 100%;
+        padding-left: 5px;
+    }
+    .cart{
+        width: 500px;
+    }
     .cart-body img {
         width: 160%;
     }
