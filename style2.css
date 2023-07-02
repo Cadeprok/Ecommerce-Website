@@ -174,6 +174,9 @@ h5 {
 }
 /*--------------------*/
 @media screen and (max-width: 1024px) {
+    section{
+        padding-left: 240px;
+    }
     .navbar{
         display: block;
         width: 100%;
@@ -187,6 +190,7 @@ h5 {
     .banner{
         width: 100%;
     }
+
     /*****  FOR CENTERING CARDS *****/
     .temp{
         padding-right: 60px;
@@ -197,7 +201,7 @@ h5 {
     /***** FOR INSIDE OF CART *****/
     .cart-card-h{
         padding-left: 10px;
-        padding-right: 50px;
+        padding-right: 70px;
     }
     .cart-card-p {
         padding-left: 10px;
@@ -213,8 +217,11 @@ h5 {
         font-size: 48px;
     }
     .total-price{
-        padding-right: 40px;
+        padding-right: 70px;
         font-size: 36px;
+    }
+    .div-CO-button{
+        padding-right: 170px;
     }
     /**********/
 }
