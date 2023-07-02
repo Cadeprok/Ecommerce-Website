@@ -174,7 +174,24 @@ h5 {
 }
 /*--------------------*/
 @media screen and (max-width: 1024px) {
-
+    .navbar{
+        display: block;
+        width: 100%;
+    }
+    .navbar-brand{
+        font-size: 30px; 
+    }
+    .nav-link{
+        font-size: 20px;
+    }
+    .banner{
+        width: 100%;
+    }
+    /*****  FOR CENTERING CARDS *****/
+    .temp{
+        display: list-item;
+    }
+    /**********/
 }
 /*--------------------*/
 @media screen and (max-width: 912px){
