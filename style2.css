@@ -189,7 +189,32 @@ h5 {
     }
     /*****  FOR CENTERING CARDS *****/
     .temp{
+        padding-right: 60px;
         display: list-item;
+    }
+    /**********/
+
+    /***** FOR INSIDE OF CART *****/
+    .cart-card-h{
+        padding-left: 10px;
+        padding-right: 50px;
+    }
+    .cart-card-p {
+        padding-left: 10px;
+    }
+
+    .temp1{
+        background-color: rgb(89, 151, 231);
+    }
+    .temp1 img{
+        padding-right: 35px;
+    }
+    .total-price-h{
+        font-size: 48px;
+    }
+    .total-price{
+        padding-right: 40px;
+        font-size: 36px;
     }
     /**********/
 }
