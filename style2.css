@@ -148,27 +148,6 @@ h5 {
 /* MEDIA QUIERY STUFF */
 /*--------------------*/
 
-@media screen and (max-width: 375px){
-    section {
-        padding: 0 0px;
-    }
-    .temp{
-        padding-left: 0px;
-    }
-
-    .navbar{
-        width: 100%;
-    }
-    .banner{
-        width: 100%;
-    }
-    .cart-card-h {
-        padding-right: 30px;
-    }
-    .total-price{
-        padding-right: 30px;
-    }
-}
 @media screen and (max-width: 1280px) {
     .navbar-brand{
         padding-left: 10px;
@@ -213,7 +192,7 @@ h5 {
 /*--------------------*/
 @media screen and (max-width: 1024px) {
     section{
-        padding-left: 240px;
+        padding-left: 240px; /* HERE IS ERROR */
     }
     .navbar{
         display: block;
@@ -264,7 +243,7 @@ h5 {
     /**********/
 }
 /*--------------------*/
-@media screen and (max-width: 912px){
+@media screen and (max-width: 912px){ /* **** here*/
     section{
         padding: 0 120px;
     }
@@ -330,8 +309,8 @@ h5 {
         align-items: center;
         padding-left: 40px;
     }
-    .cart-body img{
-        width: 60%;
+    .cart-body img {
+        width: 50%;
     }
     .total-price{
         padding-right: 0px;
@@ -346,9 +325,6 @@ h5 {
     .cart-card-p {
         color: black;
         font-size: 24px;
-    }
-    .cart-body img{
-        width: 110%;
     }
     .cart-body .temp1{
         background-color: rgb(89, 151, 231);
@@ -368,6 +344,9 @@ h5 {
         width: 100%;
     }
     .cartHeading{
+        width: 100%;
+    }
+    .cart-body img {
         width: 100%;
     }
 }
@@ -429,7 +408,7 @@ h5 {
         width: 500px;
     }
     .cart-body img {
-        width: 160%;
+        width: 140%;
     }
 }
 /*--------------------*/
@@ -448,7 +427,7 @@ h5 {
         width: 100%;
     }
     .cart-body img {
-        width: 170%;
+        width: 150%;
     }
 
 }
@@ -477,7 +456,7 @@ h5 {
         padding-left: 10px;
     }
     .card-body img{
-        width: 140%;
+        width: 130%;
     } 
     .temp{
         display: list-item;
