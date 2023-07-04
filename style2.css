@@ -192,7 +192,7 @@ h5 {
 /*--------------------*/
 @media screen and (max-width: 1024px) {
     section{
-        padding-left: 240px; /* HERE IS ERROR */
+        padding-left: 0 60px; /* HERE IS ERROR */
     }
     .navbar{
         display: block;
@@ -210,7 +210,7 @@ h5 {
 
     /*****  FOR CENTERING CARDS *****/
     .temp{
-        padding-right: 60px;
+        padding-left: 120px;
         display: list-item;
     }
     /**********/
