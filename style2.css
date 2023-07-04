@@ -182,10 +182,33 @@ h5 {
 
     /*****  FOR CENTERING CARDS *****/
     .temp{
-        padding-right: 60px;
+        padding-left: 320px; 
+        padding-right: 0px;
         display: list-item;
     }
     /*******************************/
+
+    .temp1{
+        background-color: rgb(89, 151, 231);
+    }
+    .cart-card-h{
+        padding-left: 16px;
+        padding-right: 72px;
+    }
+    .temp1 img{
+        padding-right: 36px;
+    }
+    .cart-card-p{
+        padding-left: 16px;
+        font-size: 32px;
+    }
+    .total-price-h{
+        padding-left: 16px;
+    }
+    .total-price{
+        padding-right: 76px; 
+    }
+
 }
 /*--------------------*/
 @media screen and (max-width: 1024px) {
