@@ -1,0 +1,15 @@
+body{
+    background-color: white;
+    color: black;
+}
+section{
+    padding: 0 60px;
+}
+.signUpH{
+    text-align: center;
+    font-size: 36px;
+}
+.signUpP{
+    text-align: center;
+    font-size: 16px;
+}
