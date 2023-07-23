@@ -12,4 +12,27 @@ section{
 .signUpP{
     text-align: center;
     font-size: 16px;
+    color: black;
+}
+
+.temp{
+    align-items: center;
+    text-align: center;
+}
+/*   INFORMATION SECTIONS   */
+.headingFormat{
+    text-align: start;
+    font-size: 32px;
+    color: black;
+}
+.labelFormat{
+    justify-content: start;
+}
+.inputFormat{
+    justify-content: start;
+}
+.pformat{
+    text-align: start;
+    font-size: 16px;
+    color: black; 
 }
