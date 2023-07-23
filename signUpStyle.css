@@ -38,3 +38,17 @@ section{
     font-size: 16px;
     color: black; 
 }
+
+
+
+
+
+    /* MEDIA QUIERY SECTIONS */
+    @media screen and (max-width: 280px) {
+        .signUpP {
+        font-size: 12px;
+        }
+        .signUpH{
+            font-size: 30px;
+        }
+    }
