@@ -15,20 +15,22 @@ section{
     color: black;
 }
 
-.temp{
+.inputFormat{
     align-items: center;
-    text-align: center;
+    text-align: center; /* DO THIS FOR EVERYTHING ITLL WORK FOR TEXT BOXS NOTE FOR TOMORORW*/
 }
 /*   INFORMATION SECTIONS   */
 .headingFormat{
-    text-align: start;
+    text-align: center;
     font-size: 32px;
     color: black;
 }
-.labelFormat{
-    justify-content: start;
+.submitButton{
+    text-align: center;
 }
-.inputFormat{
+
+
+.labelFormat{
     justify-content: start;
 }
 .pformat{
