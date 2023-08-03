@@ -7,7 +7,7 @@ html {
 /* [END] for navbar for when you click one of the buttons, like home, it'll scroll down to that section with a scroll effect*/
 
 body {
-    background-color: rgb(89, 151, 231);
+    background-color: white;
 }
 section {
     padding: 0 60px;
